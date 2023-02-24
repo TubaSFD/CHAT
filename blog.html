@@ -1,0 +1,19 @@
+<html>
+<p>
+Hello, and welcome to our customer service page.<br/>
+Please click the link to begin a live chat session: 
+<a id="liveagent_button_online_XXXXXXXXX" href="javascript://Chat" style="display: none;" onclick="liveagent.startChat('XXXXXXXX')">Online</a>
+<div id="liveagent_button_offline_XXXXXXX" style="display: none;">Sorry, Offline</div>
+<script type="text/javascript">
+if (!window._laq) { window._laq = []; }
+window._laq.push(function(){liveagent.showWhenOnline('XXXXXXXXXX', document.getElementById('liveagent_button_online_XXXXXX'));
+liveagent.showWhenOffline('XXXXXXXXXX', document.getElementById('liveagent_button_offline_XXXXXXXXXXX'));
+});
+</script>
+
+</p>
+<script type='text/javascript' src='https://c.la2c1.salesforceliveagent.com/content/g/js/29.0/deployment.js'></script>
+<script type='text/javascript'>
+liveagent.init('https://d.la2c1.salesforceliveagent.com/chat', 'XXXXXXXXXX', 'XXXXXXXXX');
+</script>
+</html>
