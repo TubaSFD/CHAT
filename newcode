@@ -28,7 +28,7 @@
   </script>
   <body>
     <div style ="bottom: 0px; right: 0px; position: absolute;" >
-      <iframe id="chatFrame" src= "<yourcoreurl>/to/ChatEmbedded.html"></iframe>
+      <iframe id="chatFrame" src= "https://brave-goat-33rhw2-dev-ed.trailblaze.my.salesforce.com/embeddedservice/5.0/esw.min.js/to/ChatEmbedded.html"></iframe>
     </div>
   </body>
   
