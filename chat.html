@@ -11,6 +11,17 @@
 </style>
 
 <script type='text/javascript' src='https://service.force.com/embeddedservice/5.0/esw.min.js'></script>
+<style type='text/css'>
+	.embeddedServiceHelpButton .helpButton .uiButton {
+		background-color: #005290;
+		font-family: "Arial", sans-serif;
+	}
+	.embeddedServiceHelpButton .helpButton .uiButton:focus {
+		outline: 1px solid #005290;
+	}
+</style>
+
+<script type='text/javascript' src='https://service.force.com/embeddedservice/5.0/esw.min.js'></script>
 <script type='text/javascript'>
 	var initESW = function(gslbBaseURL) {
 		embedded_svc.settings.displayHelpButton = true; //Or false
@@ -36,16 +47,16 @@
 
 		embedded_svc.init(
 			'https://brave-goat-33rhw2-dev-ed.trailblaze.my.salesforce.com',
-			'https://brave-goat-33rhw2-dev-ed.trailblaze.my.site.com/',
+			'https://brave-goat-33rhw2-dev-ed.trailblaze.my.site.com/ursamajor',
 			gslbBaseURL,
 			'00DDn000004M2p9',
-			'Chat_Agents',
+			'DC',
 			{
 				baseLiveAgentContentURL: 'https://c.la1-c1-ia7.salesforceliveagent.com/content',
 				deploymentId: '572Dn0000005WMG',
-				buttonId: '573Dn0000005WRk',
+				buttonId: '573Dn0000005WS4',
 				baseLiveAgentURL: 'https://d.la1-c1-ia7.salesforceliveagent.com/chat',
-				eswLiveAgentDevName: 'Chat_Agents',
+				eswLiveAgentDevName: 'DC',
 				isOfflineSupportEnabled: false
 			}
 		);
@@ -62,4 +73,5 @@
 		initESW('https://service.force.com');
 	}
 </script>
+	
 </html>
