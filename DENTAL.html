@@ -953,6 +953,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 liveagent.init('https://d.la4-c1cs-ia5.salesforceliveagent.com/chat', '5728N0000004DSD', '00D8N0000004nMJ');
 </script>
 
+<script type='text/javascript' src='https://c.la4-c1-ph2.salesforceliveagent.com/content/g/js/43.0/deployment.js'></script>
 
+<script type='text/javascript'>
+    // Set up Live Agent configuration
+    liveagent.init('https://d.la4-c1-ph2.salesforceliveagent.com/chat', '5728N0000004DSD', '00D8N0000004nMJ');
+
+    // Start a chat when the button is clicked
+    function startChat() {
+        liveagent.startChat('chatButton');
+    }
+</script>
+
+<!-- Add a button to start the chat -->
+<button id='chatButton' onclick='startChat()'>Chat with us</button>
   </body>
 </html>
